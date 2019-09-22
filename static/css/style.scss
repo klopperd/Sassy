@@ -1,0 +1,14 @@
+
+@import './vars';
+@import './header';
+
+.contact button {
+    /*
+    @include flexCenter(row,blue);
+    /*background: $primaryBtn; 
+    &:hover {
+        background: $buttonHover;
+    }
+    */
+    @extend header;
+}

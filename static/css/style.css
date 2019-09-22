@@ -1,0 +1,41 @@
+header, .contact button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: blue;
+  color: #4b15a3;
+}
+
+header button, .contact button button {
+  background: #f7e1e1;
+  /*&::after {
+            content: "hello";
+        }
+        */
+}
+
+header button:hover, .contact button button:hover {
+  background: #707774;
+}
+
+.contact button {
+  /*
+    @include flexCenter(row,blue);
+    /*background: $primaryBtn; 
+    &:hover {
+        background: $buttonHover;
+    }
+    */
+}
+/*# sourceMappingURL=style.css.map */
