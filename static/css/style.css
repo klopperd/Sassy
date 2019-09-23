@@ -1,8 +1,8 @@
-header, .contact button {
+header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 50vh;
+  height: 15vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -13,29 +13,39 @@ header, .contact button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: blue;
+  background: #628b8b;
   color: #4b15a3;
 }
 
-header button, .contact button button {
+header button {
   background: #f7e1e1;
-  /*&::after {
-            content: "hello";
-        }
-        */
 }
 
-header button:hover, .contact button button:hover {
+header button:hover {
   background: #707774;
 }
 
 .contact button {
-  /*
-    @include flexCenter(row,blue);
-    /*background: $primaryBtn; 
-    &:hover {
-        background: $buttonHover;
-    }
-    */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 15vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: blue;
+  background: #f7e1e1;
+  /* @extend header; */
+}
+
+.contact button:hover {
+  background: #707774;
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,12 +3,12 @@
 @import './header';
 
 .contact button {
-    /*
+    
     @include flexCenter(row,blue);
-    /*background: $primaryBtn; 
+    background: $primaryBtn; 
     &:hover {
         background: $buttonHover;
     }
-    */
-    @extend header;
+    
+    /* @extend header; */
 }
